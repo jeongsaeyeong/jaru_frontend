@@ -1,0 +1,49 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+:root {
+  // 폰트 설정
+  --mainfont: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+
+  // 컬러 설정
+  // 타이포 색상
+  --black: #1D1D1D;
+  --glay70: #555555;
+  --glay50: #8E8E8E;
+  --glay40: #C6C6C6;
+  --glay20: #E4E4E4;
+  --glay: #F0F0F0;
+  --white: #fff;
+  --none: #00000000;
+
+  //bodyblue
+  --blue00: #F2F4F8;
+  --blue20: #E1ECF7;
+  --blue40: #AECBEB;
+  --blue50: #83B0E1;
+  --blue60: #71A5DE;
+  --blue70: #558DC9;
+
+  //secondary
+  --secblue10: #F1F4FD;
+  --secblue20: #DEE6F9;
+  --secblue40: #9DBAF2;
+  --secblue70: #2F44C3;
+
+  //primary
+  --primary30: #C6D7F4;
+  --primary50: #6E96EB;
+  --primary60: #4561DC;
+
+  // 폰트 세팅
+  color: var(--black);
+  font-family: var(--mainfont);
+  font-size: 16px;
+  font-weight: 400;
+
+  // 폰트 최적화
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

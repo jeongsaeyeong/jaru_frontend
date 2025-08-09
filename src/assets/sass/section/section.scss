@@ -1,0 +1,96 @@
+.Nav_wrap {
+    width: 100%;
+    padding: 0 120px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 31px;
+
+        >div {
+            display: flex;
+            align-items: center;
+
+            >a {
+                img {
+                    width: 405px;
+                }
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                width: 780px;
+
+                a {
+                    padding: 10px;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .login {
+            padding: 10px 20px;
+            background-color: var(--black);
+            border-radius: 30px;
+            color: var(--white);
+            font-size: 20px;
+            font-weight: 400;
+            margin-left: 100px;
+        }
+    }
+
+    .search_wrap {
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 16px;
+        }
+
+        .search {
+            display: flex;
+            align-items: center;
+            width: 776px;
+            height: 60px;
+            padding: 0 0 0 20px;
+            border-radius: 40px;
+            border: 2px solid var(--primary60);
+
+            button {
+                margin-right: 13px;
+            }
+
+            input {
+                width: calc(100% - 250px);
+                padding: 0 10px 0 0;
+            }
+
+            div {
+                border-left: 2px solid var(--primary60);
+                width: 200px;
+                height: inherit;
+                position: relative;
+
+                img {
+                    width: 32px;
+                    right: 20px;
+                    top: 14px;
+                    position: absolute;
+                }
+
+                select {
+                    width: inherit;
+                    height: inherit;
+                    padding: 10px 20px;
+                    background-color: var(--none);
+                    outline: none;
+                }
+            }
+        }
+    }
+}

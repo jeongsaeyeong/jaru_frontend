@@ -1,0 +1,42 @@
+button,
+a {
+    cursor: pointer;
+    background-color: var(--none);
+}
+
+#root {
+    width: 100%;
+    min-width: 1750px;
+}
+
+body {
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0 auto;
+    background-color: var(--white);
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.none {
+    display: none !important;
+}
+
+input {
+    outline: none;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
