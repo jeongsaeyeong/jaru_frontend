@@ -23,9 +23,9 @@ const App = () => {
                 <Route path='/' element={<Main />} />
 
                 {/* License */}
-                <Route path='/licese' element={<License_List />} />
-                <Route path='/licese_detail/:id' element={<License_Detail />} />
-                <Route path='/licese_month' element={<License_Month />} />
+                <Route path='/license' element={<License_List />} />
+                <Route path='/license_detail/:id' element={<License_Detail />} />
+                <Route path='/license_month' element={<License_Month />} />
 
                 {/* User */}
                 {/* Mypage */}
@@ -35,7 +35,7 @@ const App = () => {
                 <Route path='/mypage_month' element={<Mypage_Month />} />
 
                 {/* Login */}
-                <Route path='/mypage' element={<Login />} />
+                <Route path='/login' element={<Login />} />
 
                 {/* Community */}
                 <Route path='/community' element={<Community />} />

@@ -1,0 +1,659 @@
+.License_List_wrap {
+    background-color: var(--secblue10);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin-top: 24px;
+    min-width: 1680px;
+
+    .license_list {
+        padding: 80px 0 66px;
+        margin-right: 20px;
+
+        .header {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 32px;
+
+            h2 {
+                font-size: 32px;
+                font-weight: 700;
+                margin-right: 20px;
+            }
+
+            .gray {
+                color: var(--glay50);
+                font-weight: 400;
+            }
+        }
+
+        .list_wrap {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 1356px;
+
+            >div {
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 436px;
+                height: 268px;
+                border-radius: 12px;
+                border: 2px solid #E4E4E4;
+                background-color: var(--white);
+                padding: 32px 40px;
+                margin-bottom: 23px;
+
+                >.top {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    img {
+                        width: 32px;
+                    }
+                }
+
+                .bottom {
+
+                    .top {
+                        padding-bottom: 8px;
+                    }
+
+                    div {
+                        display: flex;
+
+                        p {
+                            font-weight: 400;
+                            font-size: 20px;
+                            color: var(--glay70);
+                        }
+
+                        .left {
+                            padding-right: 12px;
+                            border-right: 3px solid var(--glay20);
+                        }
+
+                        .right {
+                            margin-left: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .category_wrap {
+        min-width: 263px;
+        height: 765px;
+        background-color: var(--white);
+
+        .category {
+            margin-bottom: 20px;
+
+            h2 {
+                height: 125px;
+                color: var(--primary60);
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            button {
+                width: 100%;
+                height: 80px;
+                font-size: 20px;
+            }
+
+            .click {
+                font-weight: 600;
+                color: var(--primary60);
+                border: 2px solid var(--primary60);
+            }
+
+            h2,
+            button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid var(--glay20);
+                border-top: none;
+            }
+
+            .last {
+                border-radius: 0 0 8px 8px;
+            }
+        }
+
+        >button {
+            width: 100%;
+            height: 80px;
+            background-color: var(--primary60);
+            border-radius: 8px;
+            color: var(--white);
+            font-size: 24px;
+            font-weight: 500;
+
+            img {
+                width: 32px;
+                margin-right: 2px;
+            }
+        }
+    }
+}
+
+.License_Detail_wrap {
+    background-color: var(--secblue10);
+    margin-top: 24px;
+    min-width: 1680px;
+
+    >h2 {
+        width: 100%;
+        padding: 10px 120px;
+        background-color: var(--secblue20);
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .main {
+        padding: 80px 120px;
+
+        h2 {
+            font-size: 32px;
+            font-weight: 700;
+            margin-bottom: 42px;
+        }
+
+        >div {
+            margin-bottom: 160px;
+        }
+
+        .introduce_wrap {
+            >div {
+                background-color: var(--white);
+                border-radius: 12px;
+                border: 1px solid var(--glay20);
+                padding: 40px;
+                max-width: 1680px;
+
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 150%;
+                    margin-bottom: 34px;
+                }
+
+                >div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 468px;
+
+                    div {
+                        display: flex;
+                        align-items: center;
+
+                        h3 {
+                            margin-right: 10px;
+                            margin-bottom: 0;
+                        }
+
+                        div {
+                            img {
+                                width: 38px;
+                            }
+                        }
+
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .date_wrap {
+            >div {
+                background-color: var(--white);
+                border-radius: 12px;
+                border: 1px solid var(--glay20);
+                padding: 40px 97px;
+                max-width: 1680px;
+
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 32px;
+
+                    p {
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+                }
+            }
+
+            .last {
+                margin-bottom: 0;
+            }
+        }
+
+        .info_wrap {
+            .list_wrap {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 1680px;
+                margin-bottom: 24px;
+
+                .list {
+                    width: 404px;
+                    height: 300px;
+                    border-radius: 12px;
+                    background-color: var(--white);
+                    border: 2px solid var(--glay20);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 40px;
+
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        font-weight: 400;
+                        line-height: 150%;
+                    }
+                }
+            }
+
+            .btn_wrap {
+                width: 100%;
+                max-width: 1680px;
+                display: flex;
+                justify-content: right;
+
+                button {
+                    width: 265px;
+                    height: 56px;
+                    background-color: var(--primary60);
+                    color: var(--white);
+                    font-size: 24px;
+                    border-radius: 8px;
+                }
+            }
+        }
+
+        .kind_wrap {
+            .list_wrap {
+                max-width: 1700px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                >div {
+                    width: 830px;
+                    height: 80px;
+                    margin-bottom: 20px;
+                    padding: 25px 20px;
+                    background-color: var(--primary50);
+                    border-radius: 8px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    img {
+                        width: 40px;
+                    }
+
+                    div {
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            color: var(--white);
+                            font-size: 20px;
+                            font-weight: 700;
+                            margin-right: 20px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.License_Month_wrap {
+    background-color: var(--secblue10);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+    margin-top: 24px;
+    min-width: 1680px;
+
+    .left {
+        padding-bottom: 130px;
+
+        .plus {
+            width: 688px;
+            border-radius: 12px;
+            border: 2px solid var(--glay20);
+            height: 150px;
+            background-color: var(--white);
+            padding: 20px;
+
+            div {
+                display: flex;
+                padding: 12px 10px;
+                margin-bottom: 4px;
+
+                button {
+                    width: 32px;
+                    margin-right: 20px;
+                }
+
+                h3 {
+                    font-size: 24px;
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                padding: 10px;
+                font-size: 20px;
+            }
+        }
+
+        .month {
+            >.plus {
+                margin-bottom: 100px;
+            }
+
+            .another {
+                h2 {
+                    font-size: 32px;
+                    font-weight: 700;
+                    margin-bottom: 24px;
+                }
+
+                .plus {
+                    margin-bottom: 16px;
+                }
+            }
+        }
+
+
+    }
+
+    .right {
+        width: 878px;
+        min-height: 1253px;
+        background-color: var(--white);
+        padding: 80px 40px;
+
+        h2 {
+            font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 42px;
+        }
+
+        .btn_wrap {
+            width: 100%;
+            display: flex;
+            justify-content: right;
+            padding-bottom: 32px;
+            border-bottom: 2px solid var(--glay20);
+            margin-bottom: 32px;
+
+            button {
+                width: 240px;
+                height: 56px;
+                font-size: 24px;
+                font-weight: 500;
+                color: var(--glay70);
+            }
+
+            .click {
+                color: var(--primary60);
+                font-weight: 700;
+            }
+        }
+
+        .tage_wrap {
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            margin-bottom: 24px;
+
+            button {
+                padding: 10px 20px;
+                font-size: 24px;
+                font-weight: 700;
+                margin-right: 16px;
+            }
+
+            .click {
+                background-color: var(--primary60);
+                border-radius: 30px;
+                color: var(--white);
+            }
+        }
+
+        .search_wrap {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            padding-bottom: 32px;
+            margin-bottom: 32px;
+            border-bottom: 2px solid var(--glay20);
+
+            div {
+                width: 308px;
+                height: 60px;
+                display: flex;
+                justify-content: space-between;
+                border-radius: 8px;
+                border: 2px solid var(--glay40);
+                padding: 20px;
+                margin-right: 16px;
+
+                input {
+                    width: 220px;
+                    font-size: 20px;
+                }
+
+                button {
+                    img {
+                        width: 32px;
+                    }
+                }
+            }
+
+            >button {
+                width: 40px;
+            }
+        }
+
+        .list_wrap {
+            .list {
+                display: flex;
+                align-items: flex-start;
+                margin-bottom: 60px;
+
+                .date {
+                    font-size: 24px;
+                    font-weight: 400;
+                    color: var(--glay70);
+                    margin-right: 26px;
+                }
+
+                .info {
+                    >div {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 16px;
+
+                        .tage {
+                            width: 55px;
+                            height: 36px;
+                            background-color: var(--primary50);
+                            border-radius: 4px;
+                            color: var(--white);
+                            font-size: 20px;
+                            font-weight: 400;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            margin-right: 10px;
+                        }
+
+                        .get {
+                            background-color: var(--secblue20);
+                            color: var(--black);
+                        }
+
+                        button {
+                            width: 32px;
+                            margin-right: 10px;
+                        }
+
+                        p {
+                            font-size: 24px;
+                            font-weight: 700;
+                            margin-right: 15px;
+                        }
+                    }
+
+                    .click {
+                        p {
+                            color: var(--primary60);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.react-calendar {
+    margin-top: 62px;
+    width: 688px !important;
+    min-height: 810px;
+    border-radius: 12px;
+    margin-bottom: 32px;
+    background-color: var(--white) !important;
+    border: 1px solid var(--glay20) !important;
+    font-family: var(--mainfont) !important;
+
+    .react-calendar__navigation {
+        display: flex;
+        height: 96px;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid var(--glay20);
+
+        .react-calendar__navigation__label {
+            flex-grow: 0 !important;
+            color: var(--primary60);
+            font-size: 40px;
+            margin: 8px 56px;
+            font-weight: 700;
+        }
+
+        .react-calendar__navigation__arrow {
+            width: 44px;
+            height: 44px;
+        }
+
+        .react-calendar__navigation__next-button {
+            background: url('../../img/license/button_month_right.svg') no-repeat center center;
+            background-size: 44px 44px;
+            color: transparent;
+            border: none;
+        }
+
+        .react-calendar__navigation__prev-button {
+            background: url('../../img/license/button_month_left.svg') no-repeat center center;
+            background-size: 44px 44px;
+            color: transparent;
+            border: none;
+        }
+    }
+
+    .react-calendar__viewContainer {
+        padding: 0 10px;
+
+        .react-calendar__month-view {
+            div {
+                font-size: 32px;
+
+            }
+
+            .react-calendar__month-view__weekdays {
+                height: 72px;
+                margin-top: 10px;
+            }
+
+            abbr[title] {
+                text-decoration: none;
+            }
+
+            .react-calendar__month-view__weekdays__weekday abbr[title="토요일"] {
+                color: var(--primary60);
+            }
+
+            .react-calendar__month-view__weekdays__weekday abbr[title="일요일"] {
+                color: #FF4747;
+            }
+
+            .react-calendar__tile--active:enabled:hover,
+            .react-calendar__tile--active:enabled:focus {
+                border-radius: 500px;
+                background: var(--primary60);
+
+                abbr {
+                    color: var(--white) !important;
+                }
+            }
+
+            .react-calendar__tile--now {
+                background: none;
+            }
+
+            .react-calendar__tile {
+                width: 71px;
+                height: 95px;
+                margin-bottom: 10px;
+
+                abbr {
+                    padding: 28px 0;
+                    font-size: 32px;
+                    font-weight: 400;
+                    color: var(--black);
+                }
+            }
+        }
+    }
+
+    .react-calendar__navigation__prev2-button,
+    .react-calendar__navigation__next2-button {
+        display: none;
+    }
+}
