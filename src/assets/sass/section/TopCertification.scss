@@ -1,0 +1,109 @@
+.top-certifications {
+    border-top: 1px solid var(--glay20);
+    margin-top: 51px;
+    padding: 0 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secblue10);
+
+    .title-bar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+        padding-top: 40px;
+
+        .title {
+            font-size: 28px;
+            font-weight: 700;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 24px;
+
+            .tab {
+                font-size: 20px;
+                font-weight: bold;
+                color: var(--black);
+                padding: 8px 16px;
+                cursor: pointer;
+                border: none;
+                background-color: transparent;
+
+                &.active {
+                    font-weight: 700;
+                    border-bottom: 3px solid var(--primary50);
+                    color: var(--primary50);
+                }
+            }
+        }
+    }
+
+    .certifications-card-list {
+        width : 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 21px;
+        margin-bottom: 40px;
+
+
+        .card {
+            background-color: var(--white);
+            border-radius: 12px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 2px 6px var(--glay20);
+            align-items: flex-start;
+
+            .card-text {
+
+                padding-right: 50px;
+                text-align: left; 
+
+                .card-title {
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 16px;
+                    color: var(--black);
+                    text-align: left;
+                    text-overflow: ellipsis;
+                    overflow: hidden;
+                    max-width: 180px;
+                }
+
+                .card-period {
+                    font-size: 12px;
+                    margin-bottom: 174px;
+                    color: var(--glay70);
+                    text-align: left;
+                }
+            }
+
+            .card-arrow {
+                margin-top: auto;
+                width: 100%;
+                text-align: right;
+                font-size: 30px;
+                font-weight: 700;
+                color: var(--glay70);
+            }
+        }
+    }
+
+    .more-btn {
+    align-self: flex-end;      
+    margin-top: 10px;
+    margin-bottom: 20px;      
+    padding: 12px 24px;
+    background-color: var(--primary60);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    }
+
+}
