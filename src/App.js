@@ -35,7 +35,7 @@ const App = () => {
                 <Route path='/mypage_month' element={<Mypage_Month />} />
 
                 {/* Login */}
-                <Route path='/mypage' element={<Login />} />
+                <Route path='/login' element={<Login />} />
 
                 {/* Community */}
                 <Route path='/community' element={<Community />} />
