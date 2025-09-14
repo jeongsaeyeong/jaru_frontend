@@ -13,7 +13,7 @@ const Nav = () => {
                     <div>
                         <Link to='/'>자격증 조회</Link>
                         <Link to='/'>자격증 알림받기</Link>
-                        <Link to='/'>자격증 TALK</Link>
+                        <Link to='/community'>자격증 TALK</Link>
                         <Link to='/'>자격증 MY자격증</Link>
                     </div>
                 </div>

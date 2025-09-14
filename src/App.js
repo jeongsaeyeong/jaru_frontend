@@ -11,6 +11,12 @@ import Mypage_Month from './components/User/Mypage/Mypage_Month'
 import Login from './components/User/Login/Login'
 import Nav from './components/Section/Nav'
 import Community from './components/Community/Community'
+import Join from './components/User/Join/Join'
+import Detail from './components/Community/Detail'
+import Write from './components/Community/Write'
+import Ask from './components/User/Mypage/Ask/Ask'
+import Ask_Detail from './components/User/Mypage/Ask/Ask_Detail'
+import Ask_Write from './components/User/Mypage/Ask/Ask_Write'
 
 const App = () => {
     return (
@@ -34,11 +40,21 @@ const App = () => {
                 <Route path='/mypage_comment' element={<Mypage_Comment />} />
                 <Route path='/mypage_month' element={<Mypage_Month />} />
 
+                {/* Ask */}
+                <Route path='/ask' element={<Ask />} />
+                <Route path='/ask/detail/:id' element={<Ask_Detail />} />
+                <Route path='/ask/write' element={<Ask_Write />} />
+
                 {/* Login */}
                 <Route path='/login' element={<Login />} />
 
+                {/* Join */}
+                <Route path='/join' element={<Join />} />
+
                 {/* Community */}
                 <Route path='/community' element={<Community />} />
+                <Route path='/community/detail/:id' element={<Detail />} />
+                <Route path='/community/write' element={<Write />} />
             </Routes>
         </BrowserRouter>
     )
