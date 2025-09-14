@@ -1,0 +1,87 @@
+/* 로그인 전체 레이아웃 */
+.login_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;  
+  background: var(--white);
+  border: 1px var(--glay20);
+
+/* 로그인 박스 */
+.login-box {
+  background: #fff;
+  padding: 20px 50px;   
+  border-radius: 12px;
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid var(--glay20);
+  box-sizing: border-box;
+}
+
+/* 제목 */
+.login-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* 안내 문구 */
+.login-info {
+  font-size: 14px;
+  color: var(--glay50);
+  margin-bottom: 8px;
+}
+
+/* 구글 로그인 버튼 */
+.login-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid var(--glay20);
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #fff;
+  cursor: pointer;
+  margin-top: 40px;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+.login-btn:hover {
+  background: #f9f9f9;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* 회원가입 안내 */
+.sign-up-section {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sign-up-info {
+  font-size: 13px;
+  color: var(--glay50);
+  margin-bottom: 8px;
+}
+
+.sign-up-btn {
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 40px;
+  color: var(--secblue70);
+  text-decoration: none;
+}
+
+.sign-up-btn:hover {
+  text-decoration: underline;
+}
+}
